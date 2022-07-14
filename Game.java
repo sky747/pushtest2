@@ -17,8 +17,8 @@ public class Game {
       else tails++;
     }
     System.out.println("Heads:" + heads + ",Tails:" + tails);
-    if(heads > tails) System.out.println("You won");
-    else if(heads < tails) System.out.println("You lost");
+    if(heads > tails) System.out.println(name + "won");
+    else if(heads < tails) System.out.println(name + "lost");
     else System.out.println("Equal");
   }
 }
